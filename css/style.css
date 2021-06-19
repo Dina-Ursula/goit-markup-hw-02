@@ -6,7 +6,7 @@
   --back-button-focus-hover:#2196f3;
   --team-backgroung: #F5F4FA;
 } 
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   background: #FFFFFF;
@@ -103,7 +103,7 @@ body {
   top: 430px;
   font-weight: bold;
   font-size: 16px;
-  line-height 1.87;
+  line-height: 1.87;
   background: var(--back-button-focus-hover);
   color: #ffffff;
 }
@@ -111,7 +111,7 @@ body {
 .future-list-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--future-title);
@@ -263,6 +263,8 @@ list-style: none;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  }.section-service{
+  color: var(--main-text-color);
+  }
+.section-service{
   list-style: none;
 }
